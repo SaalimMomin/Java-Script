@@ -34,3 +34,27 @@ const myFunction = function() {
 }
 
 console.log(typeof scoreValue);
+
+
+
+
+let myYoutubeName = "starvideo"
+
+let anothername = myYoutubeName
+anothername = "saalim"
+
+console.log(myYoutubeName);
+console.log(anothername);
+
+
+let userOne = {
+    email: "user@gamil.com",
+    upi: "userupi@"
+}
+
+let userTwo = userOne
+
+userTwo.email = "saalim@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
